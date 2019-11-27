@@ -1,8 +1,26 @@
 body {
     background-color:rgba(31, 45, 231, 0.63);
-    color:lightblue;
+    color: aliceblue ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-#titulo {
-    color:black;
+h1 {
+    color: darkorchid;
+    font-size: 45px
 }
+
+a:hover {
+    color: crimson;
+    font-size: 30px;
+    font-style: oblique
+}
+
+img:hover {
+
+    width: 500px;
+
+}
+
+p::first-letter {
+    color: purple;
+    font-size: 46px;
+  }
